@@ -1,0 +1,22 @@
+/* src/index.css */
+
+:root {
+  /* 변수로 만들어두면 나중에 바꾸기 편해요 */
+  --font-main: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 모든 요소에 폰트 적용 */
+  font-family: var(--font-main);
+  /* 한글 폰트를 더 매끄럽게 보여주는 설정 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* input이나 button은 폰트 상속이 안 되는 경우가 많아서 명시해줘야 함 */
+input, button, textarea, select {
+  font-family: inherit;
+}
