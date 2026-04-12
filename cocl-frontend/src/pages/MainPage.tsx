@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Header from '@/components/layout/Header';
 import ChatInput from '@/features/chat/components/ChatInput';
 import MessageList from '@/features/chat/components/MessageList';
-import Sidebar from '@/components/layout/Sidebar';
+import Sidebar from '@/components/layout/MainSidebar';
 
 const MainPage = () => {
   return (
