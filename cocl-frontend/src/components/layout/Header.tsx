@@ -10,8 +10,7 @@ export default function Header() {
   return (
     <HeaderContainer>
       <LogoSection>
-        <LogoIcon />
-        <LogoText>CoCl AI</LogoText>
+        <LogoImage src="/cocl_logo.png" alt="CoCl AI" />
       </LogoSection>
 
       <IconSection>
@@ -51,7 +50,7 @@ const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 32px;
+  padding: 10px 24px;
   background-color: #ffffff;
   border-bottom: 1px solid #cfe9f3;
 `;
@@ -59,20 +58,13 @@ const HeaderContainer = styled.header`
 const LogoSection = styled.div`
   display: flex;
   align-items: center;
-  gap: 8px;
 `;
 
-const LogoIcon = styled.div`
-  width: 32px;
-  height: 32px;
-  background-color: #3b82f6;
-  border-radius: 8px;
-`;
-
-const LogoText = styled.span`
-  font-size: 20px;
-  font-weight: 700;
-  color: #3b82f6;
+const LogoImage = styled.img`
+  height: 56px;
+  width: auto;
+  display: block;
+  object-fit: contain;
 `;
 
 const IconSection = styled.div`
