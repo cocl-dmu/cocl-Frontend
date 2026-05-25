@@ -9,6 +9,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/room/:roomId" element={<RoomPage />} />
+        <Route path="/rooms/:gameRoomId/play" element={<RoomPage />} />
         <Route path="/login" element={<AuthModal />} />
       </Routes>
     </BrowserRouter>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styled from 'styled-components';
 import { X, CheckCircle2 } from 'lucide-react';
 import cutiesImg from '@/assets/cuties.png';

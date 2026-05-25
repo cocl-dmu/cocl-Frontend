@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { User, Plus, Users, Play, FileText, Clock } from 'lucide-react';
+import { User, Plus, Users, Play, FileText } from 'lucide-react';
 
 const Sidebar = () => {
   return (
